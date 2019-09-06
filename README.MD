@@ -17,10 +17,10 @@
       "user": "root",
       "password": "your_password",
       "databases": { // dump multiple schemas
-        "database_1": {
+        "database_0": {
           "keep": 10 // if you want to keep more dumps
         },
-        "database_2": {}
+        "database_1": {}
       }
     }
   ]
