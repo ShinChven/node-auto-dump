@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    image: shinchven/node-auto-dump
+    container_name: node-auto-dump
+#    volumes:
+#      - /opt/docker/node-auto-dump/dumps:/usr/src/app/dumps
+#      - /opt/docker/node-auto-dump/config:/usr/src/app/config

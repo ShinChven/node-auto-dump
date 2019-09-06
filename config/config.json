@@ -1,0 +1,19 @@
+{
+  "cronTime": "0 0 * * *",
+  "timezone": "Asia/Shanghai",
+  "defaultKeep": 7,
+  "instances": [
+    {
+      "host": "127.0.0.1",
+      "port": "3306",
+      "user": "root",
+      "password": "your_password",
+      "databases": {
+        "database_1": {
+          "keep": 10
+        },
+        "database_2": {}
+      }
+    }
+  ]
+}
